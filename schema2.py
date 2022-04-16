@@ -576,7 +576,28 @@ encounter_schema = {
                                     "name",
                                     "phone"
                                 ]
-                            }
+                            },
+                            "default": [
+                                {
+                                    "name": {
+                                        "prefix": None,
+                                        "given": "[Dr_FIRSTNAME]",
+                                        "family": "[Dr_LASTNAME]",
+                                        "phone": "[PHONE]",
+                                        "address": "[ADDRESS]"
+                                    },
+                                    "phone": {
+                                        "work": "no data found"
+                                    },
+                                    "address": {
+                                        "street": "no data found",
+                                        "city": "no data found",
+                                        "state": "no data found",
+                                        "zip": "no data found",
+                                        "country": ""
+                                    }
+                                }
+                            ]
                         }
                     },
                     "required": [
